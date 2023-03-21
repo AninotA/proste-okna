@@ -1,7 +1,6 @@
 .section {
-    @include section(60px, 60px);
-
-    @include mq(tab) {
-        @include section();
-    }
+  //   padding-top: ;
+  //   padding-bottom: ;
+  padding-right: 0;
+  padding-left: 0;
 }

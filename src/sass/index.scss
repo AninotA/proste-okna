@@ -1,30 +1,16 @@
-// utils
-@import './utils/modern-normalize';
-@import './utils/variables';
-@import './utils/mixin';
-@import './utils/visually-hidden';
-
-// base
-@import './base/common';
+@import './common/common';
 @import './base/reset';
-
-// components
+@import './base/base';
 @import './components/container';
 @import './components/section';
-@import './components/button';
-@import './components/modal';
-@import './components/loader';
-@import './components/js-pagination';
-
-// layout
-@import './layout/film-card';
-@import './layout/film-index';
+@import './utils/visually-hidden';
+@import './utils/variables';
+@import './layout/header';
+@import './layout/hero';
+@import './layout/offerings';
+@import './layout/favorites';
+@import './layout/customers_say';
+@import './layout/subscribe';
 @import './layout/footer';
-@import './layout/for-team';
-@import './layout/header-home';
-@import './layout/header-library';
-@import './layout/pagination';
-@import './layout/gallary';
-@import './layout/trailer'
-
-
+@import './components/mobile-menu';
+@import './components/modal-window';
