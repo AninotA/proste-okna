@@ -1,8 +1,11 @@
 .hero {
   background-color: var(--main-bg-color);
-  padding-top: 284px;
 
   text-align: center;
+}
+
+.hero__container {
+  padding-top: 284px;
 }
 
 .hero__overlay {
@@ -34,7 +37,7 @@
   text-transform: uppercase;
   color: var(--main-txt-color);
   text-align: center;
-  margin-bottom: 8px;
+  // margin-bottom: 8px;
 }
 
 .hero__descr {
@@ -42,19 +45,18 @@
   font-size: 19px;
   line-height: calc(26 / 19);
   color: var(--main-txt-color);
+  margin-top: 8px;
 }
 
 .hero__btn {
   font-weight: 600;
   font-size: 21px;
   line-height: calc(29 / 21);
-
   // min-width: 200px;
   padding: 11.5px 94px;
   border: none;
 
   background-color: var(--btn-bg-color);
   color: var(--btn-txt-color);
-
-  margin-bottom: 40px;
+  margin-top: 321px;
 }
