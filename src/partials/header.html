@@ -1,30 +1,66 @@
-<header class="header">
+<header class="header header__overlay">
   <div class="header__container container">
-    <a class="logo lnk" href="./index.html">
-      <svg width="24" height="24" aria-label="Logotyp">
-        <use href="./images/logo/proste_okna.svg"></use>
-      </svg>
-    </a>
+    <ul class="header__list list">
+      <li class="header__item">
+        <a class="logo link" href="./index.html">
+          <img
+            src="./images/logo/logo_prosto.png"
+            alt="Logo"
+            width="38"
+            height="47"
+          />
+          <!-- <svg width="38" height="47" aria-label="Logotyp">
+            <use class="logo__icon" href="./images/logo/proste_okna_1.svg"></use>
+          </svg> -->
+        </a>
+      </li>
+      <li class="header__item">
+        <a class="header__phone link" href="tel:+42725830564"
+          ><img
+            class="phone__icon"
+            src="./images/logo/Phone.png"
+            alt="phone"
+            width="16"
+            height="16"
+          />
+          <!-- <svg class="header-phone__icon">
+                <use href="./images/logo/phone.svg"></use></svg> -->
+          +42 725 830 564</a
+        >
+      </li>
+    </ul>
     <div class="nav__container">
-      <nav class="header__nav">
-        <ul class="header__list header list">
-          <li class="header__item">
-            <a class="header__link current link" href="">Home</a>
+      <!-- <nav class="nav__header">
+        <ul class="nav__list header list">
+          <li class="nav__item">
+            <a class="nav__link current link" href="#hero">Home</a>
           </li>
-          <li class="header__item">
-            <a class="header__link link" href="">About</a>
+          <li class="nav__item">
+            <a class="nav__link link" href="#offerings">About</a>
           </li>
-          <li class="header__item">
-            <a class="header__link link" href="">Service</a>
+          <li class="nav__item">
+            <a class="nav__link link" href="#footer">Service</a>
           </li>
-          <li class="header__item">
-            <a class="header__link link" href="">Menu</a>
+          <li class="nav__item">
+            <a class="nav__link link" href="#favorites">Menu</a>
           </li>
-          <li class="header__item">
-            <a class="header__link link" href="">Contact</a>
+          <li class="nav__item">
+            <a class="nav__link link" href="#subscribe">Contact</a>
           </li>
         </ul>
-      </nav>
+      </nav> -->
+
+      <button
+        class="menu__btn js-open-modal"
+        data-modal="1"
+        type="button"
+        aria-label="button for open mobile menu"
+      >
+        <img class="mobile-menu__icon" src="./images/logo/Burger.png" alt="menu" width="30" height="30" />
+        <!-- <svg class="mobile-menu__icon" width="30" height="30">
+          <use href="./images/logo/icons.svg#burger-menu"></use>
+        </svg> -->
+      </button>
     </div>
   </div>
   <!--Mobile Menu-->
@@ -35,26 +71,31 @@
         class="modal__btn js-modal-close"
         aria-label="button for close mobile menu"
       >
-        <svg width="30" height="30">
-          <use href="./images/logo/burger_menu.svg"></use>
+        <svg width="30" height="23">
+          <use
+            href="./images/logo/close.svg"
+          ></use>
         </svg>
       </button>
       <nav class="mobile__nav">
         <ul class="mobile__list list">
-          <li class="header__item">
-            <a class="header__link current link" href="#hero">Home</a>
+          <li class="nav__item">
+            <a class="nav__link current link" href="#hero"></a>
           </li>
-          <li class="header__item">
-            <a class="header__link link" href="#offerings">About</a>
+          <li class="nav__item">
+            <a class="nav__link link" href="./okna.html">Okna</a>
           </li>
-          <li class="header__item">
-            <a class="header__link link" href="#footer">Service</a>
+          <li class="nav__item">
+            <a class=navr__link link" href="#footer">Kontakty</a>
           </li>
-          <li class="header__item">
-            <a class="header__link link" href="#favorites">Menu</a>
+          <li class="nav__item">
+            <a class="nav__link link" href="#parapety">Parapety</a>
           </li>
-          <li class="header__item">
-            <a class="header__link contact link" href="#subscribe">Contact</a>
+          <li class="nav__item">
+            <a class="nav__link link" href="#produkty">Produkty</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link link" href="#realizace">Realizace</a>
           </li>
         </ul>
       </nav>
