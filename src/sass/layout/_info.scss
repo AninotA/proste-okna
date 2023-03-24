@@ -6,6 +6,9 @@
   display: flex;
   flex-flow: wrap;
   justify-content: center;
+  padding-right: 5px;
+  padding-left: 11px;
+
 }
 
 .info__title {
@@ -21,7 +24,7 @@
   justify-content: center;
   flex-flow: wrap;
   margin-bottom: 11px;
-  text-align: justify;
+//   text-align: justify;
 }
 
 .info-descr__title {
