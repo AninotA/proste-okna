@@ -4,14 +4,17 @@
   // min-height: 71px;
   z-index: 999;
 
-  background-color: #c0d3e152;
-  
+  background-color: linear-gradient(
+      to top,
+      rgba(245, 250, 255, 0.8),
+      rgba(245, 250, 255, 0)
+    ),
+    #c0d3e152;
 }
-
-
 
 .header__container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
@@ -23,7 +26,7 @@
   justify-content: center;
   align-items: center;
   gap: 86px;
-  margin-right: 94px;
+  // margin-right: 94px;
 }
 // .logo {
 //   margin-right: 86px;
@@ -31,7 +34,7 @@
 
 .header__phone {
   display: flex;
-  align-items: center;  
+  align-items: center;
   font-weight: 500;
   font-size: 13px;
   line-height: calc(18 / 13);
