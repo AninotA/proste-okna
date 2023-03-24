@@ -5,7 +5,11 @@
 }
 
 .hero__container {
-  padding-top: 284px;
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  padding-top: 355px;
+  padding-bottom: 40px;
 }
 
 .hero__overlay {
@@ -18,12 +22,22 @@
   background-repeat: no-repeat;
   background-size: cover;
 
-  background-image: url(../images/bg_img/unsplashimg_s@1x.png);
+  background-image: linear-gradient(
+      to top,
+      rgba(245, 250, 255, 1),
+      rgba(245, 250, 255, 0)
+    ),
+    url(../images/bg_img/unsplashimg_s@1x.png);
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    background-image: url(../images/bg_img/unsplashimg_s@2x.png);
+    background-image: linear-gradient(
+        to top,
+        rgba(245, 250, 255, 1),
+        rgba(245, 250, 255, 0)
+      ),
+      url(../images/bg_img/unsplashimg_s@2x.png);
   }
 }
 
