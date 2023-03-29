@@ -2,10 +2,12 @@
   display: flex;
   justify-content: space-between;
   border-top: 1px solid var(--main-txt-color);
+  padding-top: 0;
 }
 
 .footer__nav {
   padding-top: 16px;
+  // padding-bottom: 19px;
 }
 
 .footer__list {
@@ -45,4 +47,5 @@
   font-size: 12px;
   line-height: calc(16 / 12);
   color: var(--txt-color-copy);
+  
 }
