@@ -1,15 +1,13 @@
-// .info {
-//   padding-top: 60px;
-// }
+.info {
+  @extend %section;
+}
 
 .info__container {
   display: flex;
   flex-flow: wrap;
-//   justify-content: center;
+  //   justify-content: center;
   padding-right: 5px;
   padding-left: 11px;
-  padding-top: 20px;
-
 }
 
 .info__title {
@@ -21,10 +19,9 @@
 }
 
 .info__about {
-  display: flex;  
+  display: flex;
   flex-flow: wrap;
   // margin-bottom: 11px;
-
 }
 
 .info-descr__title {
@@ -33,6 +30,7 @@
   line-height: calc(21 / 14);
   color: var(--main-txt-color);
   margin-bottom: 2px;
+  margin-top: 8px;
   //   text-align: center;
 }
 
@@ -42,5 +40,4 @@
   font-size: 14px;
   line-height: calc(21 / 14);
   color: var(--main-txt-color);
-  margin-bottom: 8px;
 }

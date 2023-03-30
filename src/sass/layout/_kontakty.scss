@@ -1,3 +1,7 @@
+.kontakty {
+  @extend %section;
+}
+
 .kontakty__container {
   padding-left: 10px;
   padding-right: 10px;
@@ -42,7 +46,7 @@
   color: var(--accent-txt-color);
 }
 
-.kontakty__btn { 
+.kontakty__btn {
   margin-left: 10px;
   margin-bottom: 40px;
 }
