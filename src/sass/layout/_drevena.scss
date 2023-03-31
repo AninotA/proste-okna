@@ -2,12 +2,15 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 20px;
+  padding-top: 20px; 
+  padding-bottom: 32px;
+
 }
 
 .drevena__catalog {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 20px;
 }
 
 .drevena__title {
@@ -74,3 +77,22 @@
   text-align: center;
   color: var(--main-txt-color);
 }
+
+.drevena-color__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 4px;
+  align-items: center;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--main-txt-color);
+}
+.drevena-color__name {
+  font-family: var(--secondary-font);
+  font-weight: 400;
+  font-size: 8px;
+  line-height: calc(9 / 8);
+  text-align: center;
+  color: var(--main-txt-color);
+}
+
