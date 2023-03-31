@@ -12,29 +12,47 @@
           <li class="drevena-tech__item"><p>5 komor</p></li>
         </ul>
         <div class="drevena__pic">
-          <img
-            srcset="
-              ./images/okna_drevena/naturo_68_100.jpg 100w,
-              ./images/okna_drevena/naturo_68_100.jpg 200w
-            "
-            sizes="(min-width: 1200px) 270px, (min-width: 744px) 111px, (min-width: 320px) 100px"
-            src="./images/okna_drevena/naturo_68_100.jpg"
-            alt="Naturo 68"
-            width="111"
-            height="170"
-            class="drevena__img"
-          />
+          <picture>
+      
+        <!-- <source
+          media="(min-width: 1280px)"
+          srcset="
+            ../src/images/offerings/apledesk_1x.webp 1x,
+            ../src/images/offerings/apledesk_2x.webp 2x
+          "
+          type="image/webp"
+        /> -->
+       
+        <source
+          media="(min-width: 744px)"
+          srcset="
+            ../src/images/okna_drevena/naturo_68_111m.webp 1x,
+            ../src/images/okna_drevena/naturo_68_222m.webp 2x
+          "
+          type="image/webp"
+        />
+      
+        <source
+          media="(min-width: 390px)"
+          srcset="
+            ../src/images/okna_drevena/naturo_68_100.webp 1x,
+            ../src/images/okna_drevena/naturo_68_200.webp 2x
+          "
+          type="image/webp"
+        />
+        <img
+          class="drevena__img"
+          alt="naturo_68"
+          src="../src/images/okna_drevena/naturo_68_100.webp"
+        />
+      </picture>
+        
         </div>
       </li>
       <li class="drevena__item"></li>
       <li class="drevena__item"></li>
     </ul>
-    <div class="drevena__catalog">
-      <div class="drevena__kind">
-        <p class="drevena__descr">Uw, když</p>
-        <p class="drevena__descr">těsnění</p>
-        <p class="drevena__descr"></p>
-      </div>
+    
       
     </div>
 
