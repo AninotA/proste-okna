@@ -22,7 +22,7 @@
   text-align: center;
   color: var(--main-txt-color);
 
-   transition: color var(--animations);
+  transition: color var(--animations);
 
   &:hover,
   &:focus {
@@ -45,5 +45,6 @@
   //   border-radius: 2px;
   //   background-color: var(--accent-txt-color);
   // }
- 
 }
+
+
