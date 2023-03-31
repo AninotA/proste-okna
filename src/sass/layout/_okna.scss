@@ -26,24 +26,24 @@
 
   &:hover,
   &:focus {
-    color: var(--accent-txt-cl);
+    color: var(--accent-txt-color);
   }
 
-  &--current {
-    color: var(--accent-txt-cl);
-    position: relative;
-  }
+  // &--current {
+  //   color: var(--accent-txt-color);
+  //   position: relative;
+  // }
 
-  &--current::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    display: block;
-    width: 100%;
-    height: 4px;
-    border-radius: 2px;
-    background-color: var(--accent-txt-cl);
-  }
+  // &--current::after {
+  //   content: '';
+  //   position: absolute;
+  //   left: 0;
+  //   bottom: 0;
+  //   display: block;
+  //   width: 100%;
+  //   height: 4px;
+  //   border-radius: 2px;
+  //   background-color: var(--accent-txt-color);
+  // }
  
 }
