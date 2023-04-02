@@ -82,7 +82,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 4px;
+  // gap: 4px;
   align-items: center;
   padding-bottom: 12px;
   border-bottom: 1px solid var(--main-txt-color);
@@ -94,6 +94,7 @@
   line-height: calc(9 / 8);
   text-align: center;
   color: var(--main-txt-color);
+  padding-top: 4px;
 }
 
 .drevena__button {
